@@ -1,0 +1,47 @@
+.btn-login {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 80px;
+    background-color: #048eb7;
+}
+
+.btn-login:hover {
+    background-color: #046f90;
+}
+
+.btn-service {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    background-color: #048eb7;
+}
+
+.btn-service:hover {
+    background-color: #046f90;
+}
+
+.crousel-g-i {
+    background: linear-gradient(rgba(246, 246, 248, 0.27), rgba(248, 248, 246, 0.325)), url("image/6195020.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .r-crousel {
+        display: none;
+    }
+}
+@media screen and (min-width: 767px) {
+    .c-gradient{
+        display:none;
+    }
+}
